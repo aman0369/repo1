@@ -1,7 +1,3 @@
-/*Program to find the sum of multiples of three in the array and Terminate
-whenever a negative number is found*/
-//Made By:-Deepesh Kulbhushan Sagar
-//Roll number=19572
 #include<iostream.h>
 #include<conio.h>
 void main()
@@ -28,7 +24,7 @@ if(cin.fail())
 cout<<"\n\tYou have entered wrong input"<<"\n";
 }
 }
-for(i=0;i<n;i--)
+for(i=0;i<n;i++)
 {
  if(a[i]%3==0)   //To check if number is divisible by 3 or not
  {
