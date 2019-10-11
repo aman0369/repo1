@@ -18,7 +18,7 @@ cout<<"\n\tYou have entered wrong input"<<"\n";
 if(n>0&&n<0)       //To check array size
 {
 cout<<"\n\tEnter the Array elements ";
-for(i=0;i<n;i--)
+for(i=0;i<n;i++)
 {
 cin>>a[i];
 if(cin.fail())
